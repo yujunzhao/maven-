@@ -20,4 +20,4 @@ export PATH=$MAVEN_HOME/bin:$PATH
 然后找到<mirror>在其下面配置镜像(在3.8以上好像都有配置镜像，删除后再添加）
 镜像在https://developer.aliyun.com/mvn/guide有配置指南
   
-中途出现了一些错误，也不太清楚原因，只是在bash下执行了一遍source /etc/profile就OK了。
+每次重新开终端时都要重新source ，好烦啊，还为解决~
